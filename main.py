@@ -12,9 +12,9 @@ def count_batteries_by_usage(cycles):
       highcount+=1
       
   return {
-    "lowCount": {lowcount},
-    "mediumCount": {mediumcount},
-    "highCount": {highcount}
+    "lowCount": lowcount,
+    "mediumCount": mediumcount,
+    "highCount": highcount
   }
 
 
